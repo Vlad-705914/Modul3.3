@@ -115,6 +115,11 @@ p {
   text-decoration: none;
   background-color: #d7b399;
 }
+.button:hover,
+.button:focus {
+  background-color: hsl(212, 80%, 19%);
+  color: #da233b;
+}
 .hero-pic {
   display: flex;
   justify-content: center;
@@ -289,6 +294,7 @@ p {
 }
 
 .form-button {
+  width: 220px;
   margin-top: 11px;
   margin-bottom: 12px;
   margin-left: 34px;
@@ -300,6 +306,11 @@ p {
   font-size: 14px;
   line-height: 1.21;
   text-align: center;
+}
+.form-wrap:hover,
+.form-wrap:focus {
+  background-color: hsl(229, 80%, 50%);
+  color: hsl(115, 77%, 44%);
 }
 /* footer */
 .footer {
@@ -361,6 +372,11 @@ p {
   font-size: 14px;
   line-height: 1.57;
   text-decoration: none;
+}
+.footer-link:hover,
+.footer-link:focus {
+  background-color: hsl(229, 80%, 50%);
+  color: hsl(115, 77%, 44%);
 }
 .subscript-text {
   color: var(--text-color);
